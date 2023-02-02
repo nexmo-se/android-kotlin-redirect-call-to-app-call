@@ -23,7 +23,7 @@ import java.util.*
 class CallActivity : AppCompatActivity() {
     private lateinit var client: NexmoClient
     var onGoingCall: NexmoCall? = null
-    var authToken: String = ""
+    var authToken: String = "JWT"
 
     private lateinit var startCallButton: Button
     private lateinit var endCallButton: Button
